@@ -6,12 +6,12 @@ Bonus:
 Aggiungere alla pagina un’immagine, presa anch’essa da un data.
 */
 
-import { createApp } from 'vue'
+const { createApp } = Vue
 
-createApp({
-  data() {
-    return {
-      count: 0
+  createApp({
+    data() {
+      return {
+        message: 'Hello Vue!'
+      }
     }
-  }
-}).mount('#app')
+  }).mount('#app')
